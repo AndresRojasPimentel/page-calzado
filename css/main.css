@@ -1,0 +1,49 @@
+#container-top-ventas{
+    background-color: rgb(109, 109, 109);
+    background-image: repeating-linear-gradient(45deg,transparent, transparent 25px, rgba(221, 218, 218, 0.5)25px, rgba(201, 193, 193, 0.5)40px);
+}
+
+#container-top-ventas::after{
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#top-ventas{
+    background-color: rgb(46, 46, 46);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#top-ventas img{
+    position: relative;
+    margin-top: -30px;
+}
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+#separador-top-ventas{
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+    z-index: 2;
+}
+#separador-top-ventas .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
+.text-align-top{
+    margin-top: -50px;
+    text-align: center;
+}
