@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/correo.js"></script>
+    <script src="js/datostaylor.js"></script>
+    <!-- fin links -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-lg-top">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logo.png" alt="converse" width="200">
+            </a>
+            <button class="navbar-toggler" 
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toogle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="navbar-item"><a href="zaphombre.html" class="nav-link" >HOMBRE</a></li>
+                    <li class="navbar-item"><a href="zapmujer.html" class="nav-link" >MUJER</a></li>
+                    <li class="navbar-item"><a href="plataformas.html" class="nav-link" >PLATAFORMAS</a></li>
+                    <li class="navbar-item"><a href="ropaaccesorio.html" class="nav-link" >ROPAS Y ACCESORIOS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- cards -->
+    
+    <div id="items">
+        <div class="container-fluid align-items-center px-5">
+            <div class="row">
+                <h3 class="text-center pb-3 pt-3 h1"></h3>
+            </div>
+            <div class="row" id="data-output">
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+        
+    
+        <!-- Section: Form -->
+        <section class="">
+            <form action="">
+            <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                    <p class="pt-2">
+                        <strong>SUSCRIBETE Y OBTEN 10% DE DESCUENTO EN TU PRIMERA COMPRA</strong>
+                    </p>
+                    </div>
+                    <!--Grid column-->
+        
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                        <input type="email" id="txtEmail" placeholder="Ingrese Correo Electrónico" class="form-control" required />
+                    </div>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-md-1">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-light mb-4" id="btnEmail" onclick="suscribir()">
+                            Suscribir
+                        </button>
+                </div>
+                <!--Grid column-->
+                
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+    
+        <!-- Section: Text -->
+        <section class="mb-2">
+            <p>
+                Entérate de promociones exclusivas y nuevos lanzamientos.
+            </p>
+        </section>
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-dark">
+        <a class="text-white nav-link" href="index.html">© 2022 Copyright: Converse</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="js/correo.js"></script>
+    <script src="js/datostaylor.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
